@@ -22,6 +22,7 @@ wcapi = API(
 )
 
 email = st.text_input("E-mail de la réservation :","").lower()
+st.write("Entez ci-dessus l'adresse mail que vous avez donnée pour la réservation et appuyez sur la toutche Enter.")
 
 if email:
     try:
